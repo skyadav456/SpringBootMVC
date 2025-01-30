@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:15:59 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:16:01 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [12/Jan/2025:00:34:01 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:34:02 +0530] "GET /SpringBootMVC-Proj02-DataRendering/ HTTP/1.1" 404 275
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:34:08 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 404 757
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:38:03 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 200 153
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:42:57 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 404 275
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:43:09 +0530] "GET /SpringBootMVC-Proj02-DataRendering/process HTTP/1.1" 404 760
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:43:31 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 404 275
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:43:55 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home/ HTTP/1.1" 404 275
+127.0.0.1 - - [12/Jan/2025:00:44:47 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:44:48 +0530] "GET /SpringBootMVC-Proj02-DataRendering/ HTTP/1.1" 404 275
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:00:44:53 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 200 153

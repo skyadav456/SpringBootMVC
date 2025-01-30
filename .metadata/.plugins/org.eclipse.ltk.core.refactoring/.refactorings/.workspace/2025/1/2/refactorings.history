@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;SpringBootMVC-Proj2-DataRendering&apos;" deleteContents="true" description="Delete resource &apos;SpringBootMVC-Proj2-DataRendering&apos;" element1="/SpringBootMVC-Proj2-DataRendering" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1736518983336"/>
+</session>

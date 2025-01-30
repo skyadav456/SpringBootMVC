@@ -1,0 +1,13 @@
+package com.sharad.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class TestController {
+
+	@GetMapping("/all")
+	public String getAllTestData() {
+		return "show_report";
+	}
+}

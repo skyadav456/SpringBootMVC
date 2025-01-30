@@ -1,0 +1,4 @@
+127.0.0.1 - - [10/Jan/2025:20:03:19 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [10/Jan/2025:20:03:20 +0530] "GET /SpringBootMVC-Proj02-DataRendering/ HTTP/1.1" 404 275
+0:0:0:0:0:0:0:1 - - [10/Jan/2025:20:03:32 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 200 93
+0:0:0:0:0:0:0:1 - - [10/Jan/2025:20:09:11 +0530] "GET /SpringBootMVC-Proj02-DataRendering/home HTTP/1.1" 200 158

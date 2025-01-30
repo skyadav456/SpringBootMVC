@@ -1,0 +1,42 @@
+package com.sharad.controller;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.sharad.service.ISeasonFinderService;
+
+@Controller
+public class SeasonOperationController {
+
+	@Autowired
+	public ISeasonFinderService service;
+	
+	@RequestMapping("/")
+	public String showHome() {
+		return "welcome";
+	}
+	
+	
+	@RequestMapping("/season")
+	public String showSeason(Map<String, Object> map) {
+		// use Service
+		String season = service.findSeason();
+		map.put("resultMsg", season);
+		return "display";
+	}
+	
+	@RequestMapping("/report")
+	public String show_report() {
+		System.out.println("SeasonOperationController.show_report()");
+		return "show_report";
+	}
+	
+	public String show_report1() {
+		System.out.println("SeasonOperationController.show_report1()");
+		return "show_report1";
+	}
+	
+}
